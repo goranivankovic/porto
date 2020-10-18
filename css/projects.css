@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.divNavPosSkills{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 75%;
+    width: 25%;
+    height: 115%;
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    
+}
+.divNavPosSkills nav{ 
+    
+    height:60%;
+    width: 100%;
+
+   
+   
+}
+.divNavPosSkills nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+ 
+
+}
+ .divNavPosSkills nav ul li .skillsC{
+    color:black;
+    font-weight:900;
+}
+
+
+.divNavPosSkills nav ul li a{
+    font-size: 2em;
+  text-decoration: none; 
+  color: black;
+  font-family: 500;
+  font-weight:900;
+
+}
+.divNavPosSkills nav ul li:hover{
+    transform: scale(1.2);
+    transition: 600ms;
+   
+  
+    
+   
+}
+.divNavPosSkills nav ul li:hover a{
+    color: indianred;
+}
+
+
+
+.divProjects{
+    position: absolute;
+    top: 0;
+    right:  0;
+   left: 25%;
+    width: 75%;
+    height: 100%;
+   
+  
+}
+
+.paint{
+    height: 50%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gogaDesign{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    
+    
+}
+.gogaDesign h3{
+    font-size: 1.7em;
+    color: gray;
+   
+}
+.gogaDesign h3::after{
+    content:' ';
+    display: inline-flex;
+    height: 12px;
+    width: 12px;
+    background-color: firebrick;
+    margin: 6px;
+    transform: rotate(30deg);
+    
+}
+.gogaDesign h3:hover::after{
+    transition: 2000ms;
+    transform: rotate(750deg);
+}
+
+.menuBar{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    font-size: 2.4em;
+    display: none;
+  
+}
+
+
+
+@media only screen and (max-width:768px){
+    
+    .divNavPosSkills{
+        display: none;
+        width: 100%;
+        background-color: tomato;
+        
+        
+    }
+   
+ .menuBar{
+     display: flex;
+     border: transparent;
+     position: absolute;
+     top: 3%;
+     left: 3%;
+     
+ }
+ 
+ .menuBar i{
+     background-color: whitesmoke;
+   
+ 
+ }
+ 
+ .divNavPosSkills nav ul li{
+     transform: scale(1);
+ }
+ .divNavPosSkills nav ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ 
+ .div30{
+     height: 20%;
+     width: 100%;
+     position: absolute;
+     bottom: 0%;
+     
+ 
+ }
+ .divProjects{
+     position: absolute;
+     top: 10%;
+     left: 1%;
+     right: 1%;
+
+
+    width: 98%;
+
+ }
+ .rockG{
+    margin-bottom: 15px;
+}
+.myG{
+    margin-bottom: 15px;
+}
+.quizG{
+    margin-bottom: 15px;
+}
+.petsG{
+    margin-bottom: 15px;
+}
+
+.puzzleG{
+    margin-bottom: 15px;
+}
+.majstoratG{
+    margin-bottom: 30px;
+}
+
+ 
+
+
+
+
+
+}
+@media only screen and (max-width:600px){
+   
+    
+
+
+}
+
+@media only screen and (max-width:500px){
+ 
+ 
+
+}
+
+@media only screen and (max-width:405px){
+   
+   
+ 
+
+
+
+
+}
+
+
+
+  
