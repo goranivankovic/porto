@@ -187,6 +187,15 @@
      
  
  }
+ .divNavPosSkills nav ul li a{
+   
+  text-decoration: none; 
+  color: whitesmoke;
+
+
+}
+
+
  .divProjects{
      position: absolute;
      top: 10%;
