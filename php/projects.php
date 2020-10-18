@@ -65,10 +65,8 @@
 
     
         </div><!-- Kraj prvog reda-->
- 
              <br>
-             <br>
-
+     
         <div class="row"> <!--Poctek drugog reda-->
 
 
