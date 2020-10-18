@@ -44,7 +44,7 @@
                 </div>
             </div><div class="col-md-4 col-sm-12 myG">
                 <div class="card">
-               <a href="https://gogasite.herokuapp.com"><img src="../img/laptop.jpg" class="paint" alt=""> </a>     
+               <a href="https://gogasite.herokuapp.com/"><img src="../img/laptop.jpg" class="paint" alt=""> </a>     
                     <div class="card-body">
                         <h5 class="card-text text-center text-danger">My Site</h5>
 
